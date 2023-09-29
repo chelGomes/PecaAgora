@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir/Alterar Funcionário</title>
+   
+   
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Inserir/Alterar Funcionário</h1>
+        <form method="POST" action="form_funcionario.php">
+            <input type="hidden" name="id" value="">
+
+            <!-- Campo Nome -->
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome:</label>
+                <input type="text" name="nome" id="nome" class="form-control" required>
+            </div>
+
+            <!-- Campo CPF -->
+            <div class="mb-3">
+                <label for="cpf" class="form-label">CPF:</label>
+                <input type="text" name="cpf" id="cpf" class="form-control" required>
+            </div>
+
+            <!-- Campo Logradouro -->
+            <div class="mb-3">
+                <label for="logradouro" class="form-label">Logradouro:</label>
+                <input type="text" name="logradouro" id="logradouro class="form-control" required>
+            </div>
+
+            <!-- Campo CEP -->
+            <div class="mb-3">
+                <label for="cep" class="form-label">CEP:</label>
+                <input type="text" name="cep" id="cep" class="form-control" required>
+            </div>
+
+            <!-- Campo Cidade -->
+            <div class="mb-3">
+                <label for="cidade" class="form-label">Cidade:</label>
+                <input type="text" name="cidade" id="cidade" class="form-control" required>
+            </div>
+
+            <!-- Campo Estado -->
+            <div class="mb-3">
+                <label for="estado" class="form-label">Estado:</label>
+                <input type="text" name="estado" id="estado" class="form-control" required>
+            </div>
+
+            <!-- Campo Numero -->
+            <div class="mb-3">
+                <label for="numero" class="form-label">Numero:</label>
+                <input type="text" name="numero" id="numero" class="form-control" required>
+            </div>
+
+            <!-- Campo Complemento -->
+            <div class="mb-3">
+                <label for="complemento" class="form-label">Complemento:</label>
+                <input type="text" name="complemento" id="complemento" class="form-control" required>
+            </div>
+
+            <!-- Campo Cargo_id -->
+            <div class="mb-3">
+                <label for="cargo_id" class="form-label">Cargo_id:</label>
+                <input type="text" name="cargo_id" id="cargo_id" class="form-control" required>
+            </div>
+
+
+            <input type="submit" class="btn btn-primary" value="Salvar">
+        </form>
+    </div>
+
+</body>
+</html>
